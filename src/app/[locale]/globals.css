@@ -1,0 +1,161 @@
+/*
+*   This css file is from https://github.com/adrianhajdin/travel_ui_ux/blob/main/app/globals.css
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter;
+}
+
+@layer utilities {
+  .btn_white { 
+    @reference  border border-white bg-white px-8 py-3 text-green-50
+  }
+  .btn_white_text  { 
+    @reference  border border-white bg-white px-8 py-3 text-gray-90
+  }
+  .btn_green  { 
+    @reference  border border-green-50 bg-green-50 px-8 py-5 text-white
+  }
+  .btn_dark_green { 
+    @reference  bg-green-90 px-8 py-4 text-white transition-all hover:bg-black
+  }
+  .btn_dark_green_outline  { 
+    @reference border border-gray-20 bg-green-90 px-8 py-5 text-white
+  }
+  
+  .max-container {
+    @reference mx-auto max-w-[1440px];
+  }
+
+  .padding-container {
+    @reference px-6 lg:px-20 3xl:px-0;
+  }
+
+  .flexCenter {
+    @reference flex items-center justify-center;
+  }
+
+  .flexBetween {
+    @reference flex items-center justify-between;
+  }
+
+  .flexStart {
+    @reference flex items-center justify-start;
+  }
+
+  .flexEnd {
+    @reference flex items-center justify-end;
+  }
+
+  /* FONTS */
+  .regular-64 {
+    @reference text-[64px] font-[400] leading-[120%];
+  }
+
+  .regular-40 {
+    @reference text-[40px] font-[400] leading-[120%];
+  }
+
+  .regular-32 {
+    @reference text-[32px] font-[400];
+  }
+
+  .regular-24 {
+    @reference text-[24px] font-[400];
+  }
+
+  .regular-20 {
+    @reference text-[20px] font-[400];
+  }
+
+  .regular-18 {
+    @reference text-[18px] font-[400];
+  }
+
+  .regular-16 {
+    @reference text-[16px] font-[400];
+  }
+
+  .regular-14 {
+    @reference text-[14px] font-[400];
+  }
+
+  .medium-14 {
+    @reference text-[14px] font-[600];
+  }
+
+  .bold-88 {
+    @reference text-[88px] font-[700] leading-[120%];
+  }
+
+  .bold-64 {
+    @reference text-[64px] font-[700] leading-[120%];
+  }
+
+  .bold-52 {
+    @reference text-[52px] font-[700] leading-[120%];
+  }
+
+  .bold-40 {
+    @reference text-[40px] font-[700] leading-[120%];
+  }
+
+  .bold-32 {
+    @reference text-[32px] font-[700] leading-[120%];
+  }
+
+  .bold-20 {
+    @reference text-[20px] font-[700];
+  }
+
+  .bold-18 {
+    @reference text-[18px] font-[700];
+  }
+
+  .bold-16 {
+    @reference text-[16px] font-[700];
+  }
+
+  /* Hero */
+  .hero-map {
+    @reference absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
+  }
+
+  /* Camp */
+  .camp-quote {
+    @reference absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px] 3xl:right-0;
+  }
+
+  /* Feature */
+  .feature-phone {
+    @reference absolute top-[13%] z-10 hidden max-w-[1500px] rotate-[15deg] md:-left-16 lg:flex  3xl:left-20;
+  }
+
+  /* Get App */
+  .get-app {
+    @reference max-container relative flex w-full  flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl;
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
