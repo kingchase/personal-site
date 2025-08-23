@@ -1,4 +1,14 @@
 {
+    "name": "Chase King",
     "intro": "Hola, me llamo Chase.",
-    "intro.detailed": "Soy ingeniero de software especializado en el desarrollo web y la automatización de pruebas QA. Me gusta aprender idiomas y pasar tiempo con mis gatos."
+    "intro.detailed": "Soy un ingeniero de software especializado en el desarrollo web y la automatización de pruebas QA. Me gusta aprender idiomas y pasar tiempo con mis gatos.",
+    "my-technologies": "Mis Tecnologías",
+    "test-automation": "Automatización de Pruebas | Playwright",
+    "test-automation.detailed": "Ayudo a los equipos a entregar software más rápido y con menos errores mediante la creación de frameworks de pruebas automatizadas basados en datos. Con Playwright, Node.js y pipelines de CI/CD, desarrollo soluciones que se integran de manera fluida en el ciclo de desarrollo.\n\nAl diseñar frameworks mantenibles y crear herramientas e informes personalizados, garantizo que las pruebas aporten un valor real al negocio: reducienco riesgos, acelerando lanzamientos y mejorando la calidad del software.",
+    "web": "Desarrollo Web Frontend | React/Next.js",
+    "web.detailed": "El desarrollo web siempre ha sido una pasión para mí. Durante mi licenciatura en Ciencias de la Computación, aprendí a crear aplicaciones web siguiendo cuidadosamente el ciclo de desarrollo de software y utilizando herramientas y frameworks como Next.js, React y Typescript.\n\nRecientemente, he estado perfeccionando mis habilidades de frontend desarrollando este sitio web. Me encanta aprender nuevos frameworks y explorar herramientas y APIs.",
+    "cicd": "CI/CD | Azure Pipelines/Github Actions",
+    "cicd.detailed": "Construyo pipelines de CI/CD basados en plantillas que permiten entregar software más rápido, seguro y confiable. Al estandarizar compilaciones, pruebas automatizadas y despliegues, ayudo a los equipos a crear pipelines de manera rápida y confiable.\n\nHe configurado pipelines para aplicaciones .NET y Vue.js, integrando pruebas smoke con Playwright como compuerta de calidad y soportando despliegues tanto en entornos cloud como on-prem.",
+    "sql": "SQL | PostgreSQL/MySQL",
+    "sql.detailed": "Completé una micro-licenciatura en SQL, donde aprendí a diseñar y estructurar bases de datos. Hoy en día utilizo SQL diariamente para realizar validaciones en mis pruebas con Playwright."
 }

@@ -1,4 +1,14 @@
 {
+    "name": "Chase King",
     "intro": "Hi, I'm Chase.",
-    "intro.detailed": "I'm a software engineer with interests in web development, QA automation, language learning, and cats."
+    "intro.detailed": "I'm a software engineer with interests in web development, QA automation, language learning, and cats.",
+    "my-technologies": "My Technologies",
+    "test-automation": "Test Automation | Playwright",
+    "test-automation.detailed": "I help teams deliver software faster and with fewer bugs by building scalable, data-driven test automation frameworks. Using Playwright, Node.js, and modern CI/CD pipelines, I create solutions that integrate seamlessly into development workflows.\n\nFrom designing maintainable frameworks to developing custom tools and reporting, I ensure testing adds real business value, reducing risk, speeding up releases, and improving quality.",
+    "web": "Frontend Web | React/NextJS",
+    "web.detailed": "Web development has always been a passion of mine. While earning my Computer Science Bachelor's Degree, I learned how to develop web applications. I carefully follow the software development lifecycle and utilize tools and frameworks such as NextJS, React, and Typescript.\n\nRecently, I have been sharpening my Frontend Web Development skills by maintaining this website. I love learning new frameworks and trying out new tools and APIs.",
+    "cicd": "CI/CD | Azure Pipelines/Github Actions",
+    "cicd.detailed": "I build templated CI/CD pipelines that make shipping software faster, safer, and more consistent. By standardizing builds, automated tests, and deployments, I help teams spin up pipelines quickly and with confidence.\n\nI've configured pipelines for .NET and Vue.js projects, integrating Playwright smoke tests and PR gates and supporting deployments to both cloud and on-prem environments. The result: reliable releases and stronger delivery practices.",
+    "sql": "SQL | PostgreSQL/MySQL",
+    "sql.detailed": "I completed a micro-degree in SQL, where I learned how to design and architect databases. Today, I use SQL daily to perform backend validations in Playwright tests."
 }
