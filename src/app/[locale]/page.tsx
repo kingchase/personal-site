@@ -2,6 +2,7 @@ import { Navbar } from "@/components/Navbar";
 import Image from "next/image";
 import { initTranslations } from "../i18n";
 import TranslationsProvider from "@/components/TranslationsProvider";
+import { Hero } from "@/components/Hero";
 
 interface PageProps {
   params: {
@@ -9,7 +10,7 @@ interface PageProps {
   }
 }
 
-const i18nNamespaces = ['home'];
+const i18nNamespaces = ['home', 'common'];
 
 export default async function Home({ params }: PageProps) {
   const { locale } = await params;
@@ -24,7 +25,18 @@ export default async function Home({ params }: PageProps) {
       resources={resources}>
       <div>
         <Navbar></Navbar>
-        <p>{t('home:intro.detailed')}</p>
+      </div>
+      <div className="px-4 py-4">
+        <Hero />
+      </div>
+      <div className="px-4 py-4">
+        <div className="flex flex-col gap-4">
+          <h2>{t('home:my-technologies')}</h2>
+          <div className="flex flex-col gap-4">
+            <h3>{t('home:test-automation')}</h3>
+            <p className="whitespace-pre-line">{t('home:test-automation.detailed')}</p>
+          </div>
+        </div>
       </div>
     </TranslationsProvider>
   );
