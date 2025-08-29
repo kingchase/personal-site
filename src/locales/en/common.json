@@ -3,6 +3,10 @@
         "home": "Home",
         "career": "Career",
         "languages": "Languages",
-        "change-language": "Change Language"
+        "change-language": "Change Language",
+        "cats": "Cats"
+    },
+    "footer": {
+        "source-code": "Source code"
     }
 }

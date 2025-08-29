@@ -3,6 +3,10 @@
         "home": "ホーム",
         "career": "キャリア",
         "languages": "語学学習",
-        "change-language":"言語変更"
+        "change-language":"言語変更",
+        "cats": "猫"
+    },
+    "footer": {
+        "source-code": "ソースコード"
     }
 }

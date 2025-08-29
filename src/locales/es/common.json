@@ -3,6 +3,10 @@
         "home": "Home",
         "career": "Carrera",
         "languages": "Idiomas",
-        "change-language": "Cambiar Idioma"
+        "change-language": "Cambiar Idioma",
+        "cats": "Gatos"
+    },
+    "footer": {
+        "source-code": "Código fuente"
     }
 }
