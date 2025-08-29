@@ -23,6 +23,11 @@ export const Navbar = () => {
                     </a>
                 </li>
                 <li>
+                    <a href="/cats" className="text-lg font-medium hover:underline">
+                        {t('common:nav.cats')}
+                    </a>
+                </li>
+                <li>
                     <LanguagePicker/>
                 </li>
             </ul>
