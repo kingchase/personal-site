@@ -31,7 +31,7 @@ export function generateStaticParams() {
   return i18nConfig.locales.map(locale => ({ locale }));
 }
 
-const i18nNamespaces = ['home', 'common'];
+const i18nNamespaces = ['home', 'common', 'languages', 'cats'];
 
 export default async function RootLayout({
   children,
