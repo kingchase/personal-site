@@ -1,5 +1,14 @@
 {
     "name": "チェイス・キング",
     "intro": "私はチェイスと言います。よろしくお願いします。",
-    "intro.detailed": "ウェブ開発やQA自動化に興味があるソフトウェアエンジニアで、外国語の学習と猫と過ごすことが好きです。"
+    "intro.detailed": "ウェブ開発やQA自動化に興味があるソフトウェアエンジニアで、外国語の学習と猫と過ごすことが好きです。",
+    "my-technologies": "使用技術",
+    "test-automation": "QA自動化 | Playwright",
+    "test-automation.detailed": "私はチームがより高速でバグの少ないソフトウェアを提供できるよう、スケーラブルでデータ駆動のテスト自動化フレームワークを構築しています。Playwright、Node.js、そして最新のCI/CDパイプラインを活用し、開発ワークフローにスムーズに統合できるソリューションを提供します。\n\n保守性の高いフレームワークの設計から、カスタムツールやレポートの開発まで、テストが実際のビジネス価値を生み出すようにしています。リスクを減らし、リリースを早め、品質を向上させます。",
+    "web": "ウェブ開発 | React/NextJS",
+    "web.detailed": "Web development has always been a passion of mine. While earning my Computer Science Bachelor's Degree, I learned how to develop web applications. I carefully follow the software development lifecycle and utilize tools and frameworks such as NextJS, React, and Typescript.\n\nRecently, I have been sharpening my Frontend Web Development skills by maintaining this website. I love learning new frameworks and trying out new tools and APIs.",
+    "cicd": "CI/CD | Azure Pipelines/Github Actions",
+    "cicd.detailed": "I build templated CI/CD pipelines that make shipping software faster, safer, and more consistent. By standardizing builds, automated tests, and deployments, I help teams spin up pipelines quickly and with confidence.\n\nI've configured pipelines for .NET and Vue.js projects, integrating Playwright smoke tests and PR gates and supporting deployments to both cloud and on-prem environments. The result: reliable releases and stronger delivery practices.",
+    "sql": "SQL | PostgreSQL/MySQL",
+    "sql.detailed": "I completed a micro-degree in SQL, where I learned how to design and architect databases. Today, I use SQL daily to perform backend validations in Playwright tests."
 }
